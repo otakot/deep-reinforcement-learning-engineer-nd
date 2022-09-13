@@ -2,7 +2,7 @@
 
 This repository contains the source code implementation for the projects of Deep Reinforcement Learning Engineer Nano Degree educational course.
 
-For detailed description of each project and project specific execution environemnt setup instruc tions please refer to corresponding project folder located README.MD file
+For detailed description of each project and project specific execution environemnt setup instructions please refer to README.MD file located in corresponding project folder
 
 ## Common execution environment setup
 
