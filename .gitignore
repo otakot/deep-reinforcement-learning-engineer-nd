@@ -102,3 +102,6 @@ ENV/
 
 # mypya
 .mypy_cache/
+
+# unity environment sources
+*.app/

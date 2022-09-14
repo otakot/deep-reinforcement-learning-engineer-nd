@@ -36,5 +36,5 @@ The task is episodic, and in order to solve the environment, agent must get an a
 
 ### Project code execution
 
-To run already trained agent or train your own agent follow the instructions in `navigation.ipynb`
+To run pretrained agent using provided model weights or train your own agent follow the instructions in `Navigation.ipynb`
 
