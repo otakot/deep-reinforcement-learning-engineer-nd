@@ -20,11 +20,11 @@ To be able to execute the source code of any of projects in this repository, bef
 	conda create --name drlnd python=3.6
 	activate drlnd
 	```
-2. If running in **Windows**, ensure you have the "Build Tools for Visual Studio 2019" installed from this [site](https://visualstudio.microsoft.com/downloads/).  This [article](https://towardsdatascience.com/how-to-install-openai-gym-in-a-windows-environment-338969e24d30) may also be very helpful.  This was confirmed to work in Windows 10 Home.
+2. If running in **Windows**, ensure you have the "Build Tools for Visual Studio 2019" installed from this [site](https://visualstudio.microsoft.com/downloads/).
 
 3. Follow the instructions in [this repository](https://github.com/openai/gym) to perform a minimal install of OpenAI gym.
 
-4. Clone the repository (if you haven't already!), and navigate to the `python/` folder.  Then, install several dependencies.
+4. Clone this repository (if you haven't already), and navigate to the `python/` folder.  Then, install several dependencies.
     ```bash
     git clone https://github.com/otakot/deep-reinforcement-learning-engineer-nd.git
     cd deep-reinforcement-learning-engineer-nd/python
@@ -36,4 +36,4 @@ To be able to execute the source code of any of projects in this repository, bef
     python -m ipykernel install --user --name drlnd --display-name "drlnd"
     ```
 
-6. Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu.
+6. Before running project code in a Jupyter notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu.
