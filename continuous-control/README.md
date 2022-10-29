@@ -14,7 +14,8 @@ In the project's environment, a double-jointed arm can move to target locations.
 
 The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector isa number between -1 and 1.
 
-The task is episodic, and in order to solve the environment, an agent must get an average score of +30 over 100 consecutive episodes.
+The project environment is running inside the Unity simulation engine and trained Agent can interact with it using the UnityAgents API.
+The variant of Unity simulation environment chosen for this project contains 20 identical agents, each with its own copy of environment. Therefore to achieve the goal of the project all agents of Unity simulation environment must get an average score of +30 (over 100 consecutive episodes, and over all agents). Specifically, after each episode, rewards that each agent received are added up and the average of these 20 scores is taken as the resulting episode score.
 
 ### Project environment setup
 
