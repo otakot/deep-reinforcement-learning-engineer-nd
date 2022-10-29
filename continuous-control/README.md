@@ -34,6 +34,12 @@ The variant of Unity simulation environment chosen for this project contains 20 
 
 2. Unzip (or decompress) the contents of downloaded archive file into source code folder of this project (`../continious-control/`)
 
+3. Set the value of 'file_name' parameter to match a name of unziped Unity environment file in the code line of Continuous_Control.ipynb file.
+ ```
+ env = UnityEnvironment(file_name='UNITY_ENVIRONMENT_FILE_NAME')
+ ```
+
+
 ### Project code execution
 
 To run pretrained agent using provided model weights or train your own agent follow the instructions in `Continuos_Control.ipynb`
