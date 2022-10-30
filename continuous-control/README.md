@@ -34,9 +34,9 @@ The variant of Unity simulation environment chosen for this project contains 20 
 
 2. Unzip (or decompress) the contents of downloaded archive file into source code folder of this project (`../continious-control/`)
 
-3. Set the value of 'file_name' parameter to match a name of unziped Unity environment file in the code line of Continuous_Control.ipynb file.
+3. Set the value of 'file_name' parameter to match a name of unziped Unity environment file in the code line of `Continuos_Control.ipynb` file.
  ```
- env = UnityEnvironment(file_name='UNITY_ENVIRONMENT_FILE_NAME')
+ env = UnityEnvironment(file_name='...')
  ```
 
 
